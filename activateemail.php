@@ -19,7 +19,7 @@ $mail->Password = 'enter password here';                           // SMTP passw
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 $to=$_SESSION['email'];
-$mail->setFrom('authentic.nepalherbs@gmail.com', 'Authentic Nepal Herbs');
+$mail->setFrom('email here', 'password here');
 $mail->addAddress($to);     // Add a recipient
 
 $mail->isHTML(true);                                  // Set email format to HTML
